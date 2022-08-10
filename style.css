@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+body {
+    background-image: url(files/backgroud.png);
+}
+ul {
+    padding: 0px;
+    list-style-type: none;
+}
+header {
+    padding: 32px 0px;
+    text-align: center; 
+    align-items: center;
+}
+header, section {
+    max-width: 300px;
+    margin: 0 auto;
+}
+img {
+    margin-bottom: 32px;
+    width: 300px;
+}
+.text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+section {
+    margin-bottom: 24px;
+}
+section h2 {
+    border: 2px solid #D3A625;
+    border-radius: 20px;
+    padding: 8px 16px;
+    text-align: center;
+    margin-bottom: 24px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    color:white;
+}
+ul li {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+li .details {
+    max-width: 210px;
+}
+.details h3 {
+    color: #995000; 
+    font-family: 'Henny Penny', cursive;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.price {
+    color: white;
+    font-family: 'Roboto Serif', serif;
+    font-size: 15px;
+}
+.description {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
