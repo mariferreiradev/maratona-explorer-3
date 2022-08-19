@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0;
+    text-decoration: none;
 }
 body {
     background-image: url(files/backgroud.png);
@@ -64,4 +65,6 @@ li .details {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
 }
-
+a {
+    text-decoration: none;
+}
